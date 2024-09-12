@@ -25,7 +25,7 @@ public class Main {
                 .saslMechanism("SCRAM-SHA-512")
                 .ssl()
                 .sniHostName("sec-datagrid-datagrid.apps.ocp.desenv.com")
-                .trustStoreFileName("/usr/src/myapp/target/classes/my_truststore.p12")
+                .trustStoreFileName("/home/sofintech_esalvador/teste-datagrid/src/main/resources/my_truststore.p12")
                 .trustStorePassword("123123".toCharArray())
                 .trustStoreType("PKCS12");
 //
