@@ -16,7 +16,7 @@ public class Main {
         ConfigurationBuilder builder = new ConfigurationBuilder();
         builder.addServer()
                 .host("sec-datagrid-datagrid.apps.ocp.desenv.com")
-                .port(443)
+                .port(11222)
                 .security().authentication()
                 .username("developer")
                 .password("usWQdehzOGGglqip")
